@@ -4,21 +4,59 @@ html {
 
 body {
     height: 100%;
+    background-color: black;
     
 }
+
 .header {
-    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
     color: #ff6600;
-    
+    font-family: 'Nunito', sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
 }
 a {
     text-decoration: none;
 }
-
 .main {
     height: 100%;
+    background-image: url("http://cars.mclaren.com/files/live/sites/mclaren/files/cars-mclaren-com-Main/McLaren%20Model%20Section/P1%20New%20Images/P1%20GTR/Geneva15_McLaren%20P1%20GTR_11.jpg?t=w1440")
 }
-.social-image{
+.social-image {
+    display: flex;
+    justify-content: space-around;
     width: 30px;
-    margin: 15px;
+    margin-left: 100px;
+}
+p {
+    color: #ff6600;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+}
+.footer {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+aboutMain {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thumbnail-image {
+    width: 300px;
+    height: 180px;
 }
