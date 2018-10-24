@@ -206,3 +206,12 @@ img {vertical-align: middle;}
     font-size: 20px;
     font-style: inherit;
 }
+.horizontalcolum {
+    height: 700px;
+}
+#a {
+    width: 500px;
+}
+#b {
+    width: 500px;
+}
